@@ -1,0 +1,42 @@
+{
+  "name": "leave-request-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.16.2",
+    "prop-types": "^15.5.10",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-redux": "^5.0.6",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.0.12",
+    "redux": "^3.7.2",
+    "redux-devtools-extension": "^2.13.5",
+    "redux-thunk": "^2.2.0",
+    "redux-logger": "^3.0.6",
+    "styled-components": "^3.4.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "precommit": "lint-staged"
+  },
+  "devDependencies": {
+    "eslint": "^5.3.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^3.0.1",
+    "eslint-plugin-babel": "^4.1.2",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.11.1",
+    "husky": "^0.14.3",
+    "lint-staged": "^7.2.2"
+  },
+  "lint-staged": {
+    "*.{js, jsx, js,json,css,md}": [
+      "prettier --write",
+      "git add"
+    ]
+  }
+}
