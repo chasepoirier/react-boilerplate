@@ -1,10 +1,9 @@
 import React from 'react'
-import { Styled } from 'components'
 
 const Home = () => (
-  <Styled.PageWrapper>
-    <Styled.Header>Home Page</Styled.Header>
-  </Styled.PageWrapper>
+  <div className="page-wrapper">
+    <div className="header">Home Page</div>
+  </div>
 )
 
 export default Home

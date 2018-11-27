@@ -10,6 +10,9 @@
         "semi": "off",
         "import/prefer-default-export": "off"
     },
+    "parserOptions": {
+        "ecmaVersion": 2017
+    },
     "settings": {
         "import/resolver": {
             "node": {

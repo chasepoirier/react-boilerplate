@@ -7,6 +7,7 @@ import registerServiceWorker from 'utils/registerServiceWorker'
 import store from 'modules/store'
 import App from 'views/App'
 
+import './main.css'
 import 'index.css'
 
 /* eslint-disable react/jsx-filename-extension */

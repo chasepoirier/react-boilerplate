@@ -1,10 +1,9 @@
 import React from 'react'
-import { Styled } from 'components'
 
 const About = () => (
-  <Styled.PageWrapper>
-    <Styled.Header>About Page</Styled.Header>
-  </Styled.PageWrapper>
+  <div className="page-wrapper">
+    <div className="header">About Page</div>
+  </div>
 )
 
 export default About

@@ -1,23 +1,23 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import { PageWrapper } from 'components/Styled'
 import Routes from 'utils/Routes'
-import { NavContainer, StyledLink, Logo, LinkContainer } from './Styled'
+
+import './navbar.css'
 
 const Navbar = () => (
-  <NavContainer>
-    <PageWrapper flex>
-      <Logo />
-      <LinkContainer>
+  <div className="nav-container">
+    <div className="page-wrapper flexed">
+      <div className="logo" />
+      <div className="link-container">
         <NavLink to={Routes.primary.home.path}>
-          <StyledLink>Home</StyledLink>
+          <div className="styled-link">HOME</div>
         </NavLink>
         <NavLink to={Routes.primary.about.path}>
-          <StyledLink>About</StyledLink>
+          <div className="styled-link">ABOUT</div>
         </NavLink>
-      </LinkContainer>
-    </PageWrapper>
-  </NavContainer>
+      </div>
+    </div>
+  </div>
 )
 
 export default Navbar
